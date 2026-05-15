@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://wamta24.icl.utk.edu/sitemap.xml
