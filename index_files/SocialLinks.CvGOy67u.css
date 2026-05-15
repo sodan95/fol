@@ -1,0 +1,1 @@
+:root{--header-background:#fff}.social-links{display:flex;flex-wrap:wrap;justify-content:space-evenly;list-style-type:none;width:100%}@media (min-width:37.5rem){.social-links{flex-wrap:nowrap;justify-content:center}}
