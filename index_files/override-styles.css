@@ -1,0 +1,116 @@
+.Header-skipToMainContent {
+    opacity: 0.9;
+	z-index: -10;
+	left: -500px;
+}
+.Header-skipToMainContent:focus {
+    z-index: 100;
+	left: 0;
+}
+
+.Header-search-link a.Link {
+    display: inline-block;
+}
+
+.Page-content .Page-aside, .ArticlePage-aside, .AthletePage-aside, .AuthorPage-aside, .BlogPage-aside, .BlogPostPage-aside, .BrandPage-aside, .CoachPage-aside, .CountryPage-aside, .CourseContentPage-aside, .DepartmentDirectoryPage-aside, .DirectorySearchPage-aside, .EmployeePage-aside, .EventCalendarDayPage-aside, .EventCalendarMonthPage-aside, .EventCategoryPage-aside, .EventPage-aside, .ExperientialPage-aside, .GalleryPage-aside, .Homepage-aside, .Page-aside, .PressRelease-aside, .ProductPage-aside, .ProgramContentPage-aside, .SearchResultsPage-aside, .SectionPage-aside, .TagPage-aside, .TaxonomyPage-aside, .TopicPage-aside, .VideoPage-aside {
+	z-index: 15;
+}
+
+.Footer .RichTextModule-items p {
+    text-transform: none;
+}
+.Footer .Footer-navigationItem .NavigationItem .NavigationLink {
+    text-transform: none;
+}
+
+.PageLogo-image {
+    width: 100%;
+}
+
+img[src=""] {
+display: none;
+}
+
+/*Temp fix for the logo issue after 1499 Template  Story */
+.Header-logo > a > .PageLogo-image {
+	max-width: 70px !important;
+}
+
+@media only screen and (max-width: 767px) {
+  .Header-logo > a > .PageLogo-image {
+	max-width: 55px !important;
+ }
+}
+
+.Header-logo img {
+    min-height: 20px;
+}
+
+.RichTextFullWidth-container {
+    min-height: 0;
+}
+
+.Header-search-button .sr-only {
+    color: #fff;
+}
+
+.flickity-prev-next-button:hover {
+    transform: translateY(-50%);
+}
+
+.cms-text-helpers-lead-in {
+    text-transform: uppercase;
+    font-family: 'IBM Plex Sans', 'HCo Ringside Narrow SSm', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 90%;
+    letter-spacing: 0.05em;
+}
+.Footer .Footer-contentTop .Footer-row {
+    margin: 0
+}
+
+/* Calendar */
+.EventCalendarSidebar-toggleExpanded a {
+    color: var(--primaryLinkColor);
+}
+.EventPage-tags {
+    margin-top: 4em;
+}
+.EventPage-contactInformation div {
+    margin-bottom: 0;
+}
+.EventPage-contactInformation-heading {
+    font-family: var(--headlineFont), HCo Ringside Narrow SSm, Open Sans, Helvetica, Arial, sans-serif;
+    font-size: 1.125em;
+    font-weight: 500;
+}
+
+/* Code */
+code {
+    text-transform: none;
+}
+code.inlineCodeblock {
+    color: #905;
+    font-size: 1em !important;
+}
+
+/* Consent banner */
+.trustarc-banner-content {
+    font-size: 16px; /* TrustArc font size correction */
+}
+#consent-banner {
+    z-index: 10000000000;
+}
+#truste-consent-track {
+    z-index: 1;
+}
+@media (min-width:960px) and (min-height:800px) {
+    .truste_box_overlay {
+        position: fixed !important;
+    }
+}
+.Carousel.published-carousel:not(.List):not(.lead-carousel).full-width .CarouselSlide-info, 
+.LeadCarousel.published-carousel:not(.List):not(.lead-carousel).full-width .CarouselSlide-info, 
+.ListCarousel.published-carousel:not(.List):not(.lead-carousel).full-width .CarouselSlide-info, .ListCarouselHeadline.published-carousel:not(.List):not(.lead-carousel).full-width .CarouselSlide-info, .ListCarouselQuoteFullWidth.published-carousel:not(.List):not(.lead-carousel).full-width .CarouselSlide-info {
+	background-color: #2a2a2a;
+}

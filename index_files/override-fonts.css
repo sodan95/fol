@@ -1,0 +1,55 @@
+body {
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6 { letter-spacing: 0; }
+
+.TimelineEventCard-cta, .TimelineEventCard-description {
+    font-size: 14px;
+}
+.ArticlePage-byline, .AthletePage-byline, .AuthorPage-byline, .BlogPostPage-byline, .BookPage-byline, .CoachPage-byline, .CourseContentPage-byline, .DepartmentDirectoryPage-byline, .DiscussionPage-byline, .EmployeePage-byline, .EventPage-byline, .ExperientialPage-byline, .GalleryPage-byline, .GlossaryPage-byline, .HowToGuidePage-byline, .PressRelease-byline, .ProgramContentPage-byline, .ReferencePage-byline, .SupportDeskTopicPage-byline, .Topic-byline, .TutorialPage-byline, .VideoPage-byline {
+    letter-spacing: 0.5px;
+}
+
+.credit { font-weight: 400; }
+
+body, .page-subtitle, .blockquote, .list-description, .list-description p, .list-item-small-light, .description-text, .description-text p, .quote-attribution, .promo-description, .promo-description p, .caption, .credit, .promo-author, .ListLinks-title, .promo-description, .promo-description p, .PromoMetrics-description, .PromoMetrics-description p 
+{ 
+    font-weight: 425;
+}
+.AthletePage-address, .AthletePage-address p, .AthletePage-curriculumVitaeLink, .AthletePage-curriculumVitaeLink p, .AthletePage-email, .AthletePage-email p, .AthletePage-groups, .AthletePage-groups p, .AthletePage-jobTitle, .AthletePage-jobTitle p, .AthletePage-phoneNumber, .AthletePage-phoneNumber p, .AthletePage-websiteLink, .AthletePage-websiteLink p, .AuthorPage-address, .AuthorPage-address p, .AuthorPage-affiliation, .AuthorPage-affiliation p, .AuthorPage-curriculumVitaeLink, .AuthorPage-curriculumVitaeLink p, .AuthorPage-email, .AuthorPage-email p, .AuthorPage-jobTitle, .AuthorPage-jobTitle p, .AuthorPage-phoneNumber, .AuthorPage-phoneNumber p, .CoachPage-address, .CoachPage-address p, .CoachPage-curriculumVitaeLink, .CoachPage-curriculumVitaeLink p, .CoachPage-email, .CoachPage-email p, .CoachPage-groups, .CoachPage-groups p, .CoachPage-jobTitle, .CoachPage-jobTitle p, .CoachPage-office, .CoachPage-office p, .CoachPage-phoneNumber, .CoachPage-phoneNumber p, .CoachPage-websiteLink, .CoachPage-websiteLink p, .DepartmentDirectoryPage-address, .DepartmentDirectoryPage-address p, .DepartmentDirectoryPage-curriculumVitaeLink, .DepartmentDirectoryPage-curriculumVitaeLink p, .DepartmentDirectoryPage-email, .DepartmentDirectoryPage-email p, .DepartmentDirectoryPage-groups, .DepartmentDirectoryPage-groups p, .DepartmentDirectoryPage-jobTitle, .DepartmentDirectoryPage-jobTitle p, .DepartmentDirectoryPage-office, .DepartmentDirectoryPage-office p, .DepartmentDirectoryPage-phoneNumber, .DepartmentDirectoryPage-phoneNumber p, .DepartmentDirectoryPage-websiteLink, .DepartmentDirectoryPage-websiteLink p, .description-text, .description-text p, .EmployeePage-address, .EmployeePage-address p, .EmployeePage-curriculumVitaeLink, .EmployeePage-curriculumVitaeLink p, .EmployeePage-email, .EmployeePage-email p, .EmployeePage-groups, .EmployeePage-groups p, .EmployeePage-jobTitle, .EmployeePage-jobTitle p, .EmployeePage-phoneNumber, .EmployeePage-phoneNumber p, .EmployeePage-websiteLink, .EmployeePage-websiteLink p, .EventPage-eventDate, .EventPage-eventDate p, .EventPage-eventDuration, .EventPage-eventDuration p, .EventPage-eventLocation, .EventPage-eventLocation p, .EventPage-subHeadline, .EventPage-subHeadline p, .ProgramContentPage-address, .ProgramContentPage-address p, .ProgramContentPage-curriculumVitaeLink, .ProgramContentPage-curriculumVitaeLink p, .ProgramContentPage-email, .ProgramContentPage-email p, .ProgramContentPage-groups, .ProgramContentPage-groups p, .ProgramContentPage-jobTitle, .ProgramContentPage-jobTitle p, .ProgramContentPage-phoneNumber, .ProgramContentPage-phoneNumber p, .ProgramContentPage-websiteLink, .ProgramContentPage-websiteLink p, .VideoLead-subHeadline, .VideoLead-subHeadline p {
+    font-weight: 425;
+}
+.RichTextFullWidth-items table { font-size: var(--body-text); }
+
+.ArticlePage-pageSubHeading, .AthletePage-pageSubHeading, .AuthorPage-pageSubHeading, .BlogPage-pageSubHeading, .BlogPostPage-pageSubHeading, .BookPage-pageSubHeading, .BrandPage-pageSubHeading, .CoachPage-pageSubHeading, .CountryPage-pageSubHeading, .CourseContentPage-pageSubHeading, .CreativeWorkPage-pageSubHeading, .CreativeWorkPageAlternate-pageSubHeading, .DepartmentDirectoryPage-pageSubHeading, .DirectorySearchPage-pageSubHeading, .DiscussionPage-pageSubHeading, .EmployeePage-pageSubHeading, .EventCalendarDayPage-pageSubHeading, .EventCalendarMonthPage-pageSubHeading, .EventCategoryPage-pageSubHeading, .EventPage-pageSubHeading, .ExperientialPage-pageSubHeading, .GalleryPage-pageSubHeading, .GlossaryPage-pageSubHeading, .Homepage-pageSubHeading, .HowToGuidePage-pageSubHeading, .Page-pageSubHeading, .page-subtitle, .PressRelease-pageSubHeading, .ProductPage-pageSubHeading, .ProgramContentPage-pageSubHeading, .ReferencePage-pageSubHeading, .SearchResultsPage-pageSubHeading, .SectionPage-pageSubHeading, .SupportDeskTopicPage-pageSubHeading, .TagPage-pageSubHeading, .TaxonomyPage-pageSubHeading, .Topic-pageSubHeading, .TopicPage-pageSubHeading, .TutorialPage-pageSubHeading, .VideoPage-pageSubHeading {
+    font-size: var(--page-subtitle);
+    line-height: 1.33;
+    font-weight: 450;
+}
+
+.RichTextFullWidth-items h6 { font-weight: 475; }
+
+.RichTextFullWidth-items h5 { font-weight: 500; }
+.Header { font-weight: 500; }
+
+.RichTextFullWidth-items h4 { font-weight: 600; }
+.RichTextFullWidth-content b, .RichTextFullWidth-content strong, .RichTextArticleBody b, .RichTextArticleBody strong, .quote-attribution, .CaptchaInput .label, .DateInput .label, .EmailInput .label, .Fieldset .label, .FileInput .label, .PhoneNumberInput .label, .Select .label, .TextArea .label, .TextInput .label { 
+  font-weight: 600; 
+}
+.AuthorPage-paginationButton, .BrandPage-paginationButton, .btn, .button-label, .CapstoneHubList .List-paginationButton, .CountryPage-paginationButton, .DirectorySearchPage-export-btn a, .EventCalendarDayPage-export-btn a, .EventCalendarMonthPage-export-btn a, .EventCategoryPage-paginationButton, .EventPage-addToCalendar .FavoriteButton, .Footer .RichTextModule-cta a, .GeographicMap .List-paginationButton, .Header-customButton>a, .List .List-paginationButton, .ListAbstract .List-paginationButton, .ListAccordion .List-paginationButton, .ListAsideStacked .List-paginationButton, .ListAthleticEvent .List-paginationButton, .ListCard .List-paginationButton, .ListCardBackground .List-paginationButton, .ListCardDescriptionOnLeft .List-paginationButton, .ListCardImageOnly .List-paginationButton, .ListCardImageOnSide .List-paginationButton, .ListCardImageOnTop .List-paginationButton, .ListCardLogoBottom .List-paginationButton, .ListCardLogoTop .List-paginationButton, .ListCardQuote .List-paginationButton, .ListCardTextOnly .List-paginationButton, .ListCarouselBoxedHeadline .List-paginationButton, .ListCarouselQuoteFullWidth .List-paginationButton, .ListEvents .List-paginationButton, .ListHighlightA .List-paginationButton, .ListIconOnSide .List-paginationButton, .ListIconOnTopLarge .List-paginationButton, .ListIconOnTopSmall .List-paginationButton, .ListImageLarge .List-paginationButton, .ListImageMedium .List-paginationButton, .ListImageOnTopCircular .List-paginationButton, .ListImageSmall .List-paginationButton, .ListImageThumbnail .List-paginationButton, .ListLinks .List-paginationButton, .ListLogoOnly .List-paginationButton, .ListMetrics .List-paginationButton, .ListSchedule .List-paginationButton, .ListSpeechPromo .List-paginationButton, .ListTagCloud .List-paginationButton, .ListUpcomingEvents .List-paginationButton, .ListVerticalImage .List-paginationButton, .ProductPage-paginationButton, .SearchResultsPage-export-btn a, .SectionPage-paginationButton, .SocialList .List-paginationButton, .TagPage-paginationButton, .TaxonomyPage-paginationButton, .TopicPage-paginationButton {
+    font-weight: 600;
+}
+.RichTextFullWidth-items h3 { font-weight: 640; }
+.RichTextFullWidth-items h2 { font-weight: 650; }
+.DirectoryEmployeePromo-title, .PromoAbstract-title, .PromoAdLede-title, .PromoAthleticEvent-title, .PromoCardBackground-eventDate-title, .PromoCardBackground-title, .PromoCardImageOnly-title, .PromoCardImageOnlyLarge-title, .PromoCardImageOnSide-title, .PromoCardImageOnTop-title, .PromoCardImageOnTopLarge-eventDate-title, .PromoCardImageOnTopLarge-title, .PromoCardLogoOnBottom-title, .PromoCardLogoOnTop-title, .PromoCarouselBoxedHeadline-title, .PromoCarouselHeadline-title, .PromoCarouselLargeImage-title, .PromoEvent-title, .PromoFlipCardIconQuote-title, .PromoFlipCardImageButton-title, .PromoFlipCardLogoButton-title, .PromoFullWidth-Large-title, .PromoFullWidth-title, .PromoIconOnSide-title, .PromoIconOnTopLarge-title, .PromoIconOnTopSmall-title, .PromoImage-title, .PromoImageLarge-title, .PromoImageMedium-title, .PromoImageOnBottomLarge-title, .PromoImageOnly-title, .PromoImageOnTopLarge-title, .PromoImageSmall-title, .PromoImageThumbnail-title, .PromoMetrics-title, .PromoNotification-title, .PromoStandard-title, .QuoteFullWidth-title, .RichTextCard-title {
+    font-weight: 650;
+}
+.ArticlePage-pageHeading, .AthletePage-pageHeading, .AuthorPage-pageHeading, .BlogPage-pageHeading, .BlogPostPage-pageHeading, .BookPage-pageHeading, .BrandPage-pageHeading, .CoachPage-pageHeading, .CountryPage-pageHeading, .CourseContentPage-pageHeading, .CreativeWorkPage-pageHeading, .CreativeWorkPageAlternate-pageHeading, .DepartmentDirectoryPage-pageHeading, .DirectorySearchPage-pageHeading, .DiscussionPage-pageHeading, .EmployeePage-pageHeading, .EventCalendarDayPage-pageHeading, .EventCalendarMonthPage-pageHeading, .EventCategoryPage-pageHeading, .EventPage-pageHeading, .ExperientialPage-pageHeading, .GalleryPage-pageHeading, .GlossaryPage-pageHeading, .Homepage-pageHeading, .HowToGuidePage-pageHeading, .Page-pageHeading, .page-title, .PressRelease-pageHeading, .ProductPage-pageHeading, .ProgramContentPage-pageHeading, .ReferencePage-pageHeading, .SearchResultsPage-pageHeading, .SectionPage-pageHeading, .SupportDeskTopicPage-pageHeading, .TagPage-pageHeading, .TaxonomyPage-pageHeading, .Topic-pageHeading, .TopicPage-pageHeading, .TutorialPage-pageHeading, .VideoPage-pageHeading {
+    font-size: var(--page-title);
+    line-height: 1.13;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 675;
+}
